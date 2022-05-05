@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D559338A281ABADC006ED0F0 /* LogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FA025428118CC300DA43F8 /* LogService.swift */; };
+		D5593391281ACFF8006ED0F0 /* GenericLogResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5593390281ACFF8006ED0F0 /* GenericLogResponse.swift */; };
+		D5593395281C18F5006ED0F0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5593394281C18F5006ED0F0 /* Extension.swift */; };
+		D5BBDCCC28119D6B00D95339 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = D5BBDCCB28119D6B00D95339 /* LICENSE.md */; };
+		D5F086552819683F0013E091 /* DeviceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F086542819683F0013E091 /* DeviceHelper.swift */; };
+		D5F086562819683F0013E091 /* DeviceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F086542819683F0013E091 /* DeviceHelper.swift */; };
+		D5F0865728196A3E0013E091 /* LogHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FA025228118CC300DA43F8 /* LogHelper.swift */; };
+		D5F0865928196E6F0013E091 /* DataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0865828196E6F0013E091 /* DataHelper.swift */; };
+		D5F0865A28196E6F0013E091 /* DataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0865828196E6F0013E091 /* DataHelper.swift */; };
+		D5F0865C28196E7C0013E091 /* UtilityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0865B28196E7C0013E091 /* UtilityHelper.swift */; };
+		D5F0865D28196E7C0013E091 /* UtilityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0865B28196E7C0013E091 /* UtilityHelper.swift */; };
+		D5F08660281974E30013E091 /* BaseDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0865F281974E30013E091 /* BaseDataService.swift */; };
+		D5F08661281974E30013E091 /* BaseDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0865F281974E30013E091 /* BaseDataService.swift */; };
+		D5F08663281AAF410013E091 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F08662281AAF410013E091 /* Constants.swift */; };
+		D5F08664281AAF410013E091 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F08662281AAF410013E091 /* Constants.swift */; };
+		D5FA023C28118CAC00DA43F8 /* PinsoftKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = D5FA023B28118CAC00DA43F8 /* PinsoftKit.docc */; };
+		D5FA024228118CAC00DA43F8 /* PinsoftKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FA023728118CAC00DA43F8 /* PinsoftKit.framework */; };
+		D5FA024728118CAC00DA43F8 /* PinsoftKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FA024628118CAC00DA43F8 /* PinsoftKitTests.swift */; };
+		D5FA024828118CAC00DA43F8 /* PinsoftKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D5FA023A28118CAC00DA43F8 /* PinsoftKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5FA025A28118CC300DA43F8 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FA025128118CC300DA43F8 /* Logger.swift */; };
+		D5FA025C28118CC300DA43F8 /* LogHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FA025228118CC300DA43F8 /* LogHelper.swift */; };
+		D5FA025E28118CC300DA43F8 /* HeatMapLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FA025328118CC300DA43F8 /* HeatMapLog.swift */; };
+		D5FA026028118CC300DA43F8 /* LogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FA025428118CC300DA43F8 /* LogService.swift */; };
+		D5FA026228118CC300DA43F8 /* LogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FA025528118CC300DA43F8 /* LogModel.swift */; };
+		D5FA026428118CC300DA43F8 /* ScreenLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FA025628118CC300DA43F8 /* ScreenLog.swift */; };
+		D5FA026628118CC300DA43F8 /* CustomLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FA025728118CC300DA43F8 /* CustomLog.swift */; };
+		D5FA026828118CC300DA43F8 /* PSKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FA025828118CC300DA43F8 /* PSKit.swift */; };
+		D5FA026A28118CC400DA43F8 /* LogBatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FA025928118CC300DA43F8 /* LogBatch.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5FA024328118CAC00DA43F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FA022E28118CAC00DA43F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5FA023628118CAC00DA43F8;
+			remoteInfo = PinsoftKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5593390281ACFF8006ED0F0 /* GenericLogResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericLogResponse.swift; sourceTree = "<group>"; };
+		D5593394281C18F5006ED0F0 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		D5BBDCCB28119D6B00D95339 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = PinsoftKit/LICENSE.md; sourceTree = SOURCE_ROOT; };
+		D5F086542819683F0013E091 /* DeviceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceHelper.swift; sourceTree = "<group>"; };
+		D5F0865828196E6F0013E091 /* DataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHelper.swift; sourceTree = "<group>"; };
+		D5F0865B28196E7C0013E091 /* UtilityHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityHelper.swift; sourceTree = "<group>"; };
+		D5F0865F281974E30013E091 /* BaseDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDataService.swift; sourceTree = "<group>"; };
+		D5F08662281AAF410013E091 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D5FA023728118CAC00DA43F8 /* PinsoftKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PinsoftKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5FA023A28118CAC00DA43F8 /* PinsoftKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinsoftKit.h; sourceTree = "<group>"; };
+		D5FA023B28118CAC00DA43F8 /* PinsoftKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = PinsoftKit.docc; sourceTree = "<group>"; };
+		D5FA024128118CAC00DA43F8 /* PinsoftKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinsoftKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5FA024628118CAC00DA43F8 /* PinsoftKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinsoftKitTests.swift; sourceTree = "<group>"; };
+		D5FA025128118CC300DA43F8 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		D5FA025228118CC300DA43F8 /* LogHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogHelper.swift; sourceTree = "<group>"; };
+		D5FA025328118CC300DA43F8 /* HeatMapLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeatMapLog.swift; sourceTree = "<group>"; };
+		D5FA025428118CC300DA43F8 /* LogService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogService.swift; sourceTree = "<group>"; };
+		D5FA025528118CC300DA43F8 /* LogModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogModel.swift; sourceTree = "<group>"; };
+		D5FA025628118CC300DA43F8 /* ScreenLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenLog.swift; sourceTree = "<group>"; };
+		D5FA025728118CC300DA43F8 /* CustomLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLog.swift; sourceTree = "<group>"; };
+		D5FA025828118CC300DA43F8 /* PSKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSKit.swift; sourceTree = "<group>"; };
+		D5FA025928118CC300DA43F8 /* LogBatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogBatch.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5FA023428118CAC00DA43F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FA023E28118CAC00DA43F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FA024228118CAC00DA43F8 /* PinsoftKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D559338B281ACE43006ED0F0 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				D5593390281ACFF8006ED0F0 /* GenericLogResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		D5593392281C0613006ED0F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5FA025728118CC300DA43F8 /* CustomLog.swift */,
+				D5FA025928118CC300DA43F8 /* LogBatch.swift */,
+				D5FA025528118CC300DA43F8 /* LogModel.swift */,
+				D5FA025628118CC300DA43F8 /* ScreenLog.swift */,
+				D5FA025328118CC300DA43F8 /* HeatMapLog.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5F086532819682D0013E091 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D5F086542819683F0013E091 /* DeviceHelper.swift */,
+				D5F0865828196E6F0013E091 /* DataHelper.swift */,
+				D5FA025228118CC300DA43F8 /* LogHelper.swift */,
+				D5F0865B28196E7C0013E091 /* UtilityHelper.swift */,
+				D5F08662281AAF410013E091 /* Constants.swift */,
+				D5593394281C18F5006ED0F0 /* Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D5F0865E281974C00013E091 /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				D559338B281ACE43006ED0F0 /* Response */,
+				D5F0865F281974E30013E091 /* BaseDataService.swift */,
+				D5FA025428118CC300DA43F8 /* LogService.swift */,
+			);
+			path = DataService;
+			sourceTree = "<group>";
+		};
+		D5FA022D28118CAC00DA43F8 = {
+			isa = PBXGroup;
+			children = (
+				D5FA023928118CAC00DA43F8 /* PinsoftKit */,
+				D5FA024528118CAC00DA43F8 /* PinsoftKitTests */,
+				D5FA023828118CAC00DA43F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5FA023828118CAC00DA43F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5FA023728118CAC00DA43F8 /* PinsoftKit.framework */,
+				D5FA024128118CAC00DA43F8 /* PinsoftKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5FA023928118CAC00DA43F8 /* PinsoftKit */ = {
+			isa = PBXGroup;
+			children = (
+				D5593392281C0613006ED0F0 /* Models */,
+				D5F0865E281974C00013E091 /* DataService */,
+				D5F086532819682D0013E091 /* Helpers */,
+				D5FA025128118CC300DA43F8 /* Logger.swift */,
+				D5FA025828118CC300DA43F8 /* PSKit.swift */,
+				D5BBDCCB28119D6B00D95339 /* LICENSE.md */,
+				D5FA023A28118CAC00DA43F8 /* PinsoftKit.h */,
+				D5FA023B28118CAC00DA43F8 /* PinsoftKit.docc */,
+			);
+			path = PinsoftKit;
+			sourceTree = "<group>";
+		};
+		D5FA024528118CAC00DA43F8 /* PinsoftKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5FA024628118CAC00DA43F8 /* PinsoftKitTests.swift */,
+			);
+			path = PinsoftKitTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D5FA023228118CAC00DA43F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FA024828118CAC00DA43F8 /* PinsoftKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D5FA023628118CAC00DA43F8 /* PinsoftKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5FA024B28118CAC00DA43F8 /* Build configuration list for PBXNativeTarget "PinsoftKit" */;
+			buildPhases = (
+				D5FA023228118CAC00DA43F8 /* Headers */,
+				D5FA023328118CAC00DA43F8 /* Sources */,
+				D5FA023428118CAC00DA43F8 /* Frameworks */,
+				D5FA023528118CAC00DA43F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinsoftKit;
+			productName = PinsoftKit;
+			productReference = D5FA023728118CAC00DA43F8 /* PinsoftKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D5FA024028118CAC00DA43F8 /* PinsoftKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5FA024E28118CAC00DA43F8 /* Build configuration list for PBXNativeTarget "PinsoftKitTests" */;
+			buildPhases = (
+				D5FA023D28118CAC00DA43F8 /* Sources */,
+				D5FA023E28118CAC00DA43F8 /* Frameworks */,
+				D5FA023F28118CAC00DA43F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5FA024428118CAC00DA43F8 /* PBXTargetDependency */,
+			);
+			name = PinsoftKitTests;
+			productName = PinsoftKitTests;
+			productReference = D5FA024128118CAC00DA43F8 /* PinsoftKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5FA022E28118CAC00DA43F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					D5FA023628118CAC00DA43F8 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					D5FA024028118CAC00DA43F8 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = D5FA023128118CAC00DA43F8 /* Build configuration list for PBXProject "PinsoftKit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5FA022D28118CAC00DA43F8;
+			productRefGroup = D5FA023828118CAC00DA43F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5FA023628118CAC00DA43F8 /* PinsoftKit */,
+				D5FA024028118CAC00DA43F8 /* PinsoftKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5FA023528118CAC00DA43F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5BBDCCC28119D6B00D95339 /* LICENSE.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FA023F28118CAC00DA43F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5FA023328118CAC00DA43F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FA026028118CC300DA43F8 /* LogService.swift in Sources */,
+				D5FA023C28118CAC00DA43F8 /* PinsoftKit.docc in Sources */,
+				D5FA025E28118CC300DA43F8 /* HeatMapLog.swift in Sources */,
+				D5FA025C28118CC300DA43F8 /* LogHelper.swift in Sources */,
+				D5F08660281974E30013E091 /* BaseDataService.swift in Sources */,
+				D5F08663281AAF410013E091 /* Constants.swift in Sources */,
+				D5FA026228118CC300DA43F8 /* LogModel.swift in Sources */,
+				D5FA026A28118CC400DA43F8 /* LogBatch.swift in Sources */,
+				D5593391281ACFF8006ED0F0 /* GenericLogResponse.swift in Sources */,
+				D5FA026428118CC300DA43F8 /* ScreenLog.swift in Sources */,
+				D5593395281C18F5006ED0F0 /* Extension.swift in Sources */,
+				D5F0865C28196E7C0013E091 /* UtilityHelper.swift in Sources */,
+				D5FA026828118CC300DA43F8 /* PSKit.swift in Sources */,
+				D5FA025A28118CC300DA43F8 /* Logger.swift in Sources */,
+				D5F0865928196E6F0013E091 /* DataHelper.swift in Sources */,
+				D5F086552819683F0013E091 /* DeviceHelper.swift in Sources */,
+				D5FA026628118CC300DA43F8 /* CustomLog.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FA023D28118CAC00DA43F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FA024728118CAC00DA43F8 /* PinsoftKitTests.swift in Sources */,
+				D5F0865A28196E6F0013E091 /* DataHelper.swift in Sources */,
+				D5F0865728196A3E0013E091 /* LogHelper.swift in Sources */,
+				D5F086562819683F0013E091 /* DeviceHelper.swift in Sources */,
+				D5F08664281AAF410013E091 /* Constants.swift in Sources */,
+				D5F08661281974E30013E091 /* BaseDataService.swift in Sources */,
+				D559338A281ABADC006ED0F0 /* LogService.swift in Sources */,
+				D5F0865D28196E7C0013E091 /* UtilityHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5FA024428118CAC00DA43F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5FA023628118CAC00DA43F8 /* PinsoftKit */;
+			targetProxy = D5FA024328118CAC00DA43F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D5FA024928118CAC00DA43F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D5FA024A28118CAC00DA43F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5FA024C28118CAC00DA43F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2RWG9Y7PRJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onurkucuk.PinsoftKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5FA024D28118CAC00DA43F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2RWG9Y7PRJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onurkucuk.PinsoftKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5FA024F28118CAC00DA43F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RWG9Y7PRJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onurkucuk.PinsoftKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5FA025028118CAC00DA43F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RWG9Y7PRJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onurkucuk.PinsoftKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5FA023128118CAC00DA43F8 /* Build configuration list for PBXProject "PinsoftKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FA024928118CAC00DA43F8 /* Debug */,
+				D5FA024A28118CAC00DA43F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5FA024B28118CAC00DA43F8 /* Build configuration list for PBXNativeTarget "PinsoftKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FA024C28118CAC00DA43F8 /* Debug */,
+				D5FA024D28118CAC00DA43F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5FA024E28118CAC00DA43F8 /* Build configuration list for PBXNativeTarget "PinsoftKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FA024F28118CAC00DA43F8 /* Debug */,
+				D5FA025028118CAC00DA43F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5FA022E28118CAC00DA43F8 /* Project object */;
+}
