@@ -77,7 +77,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :http => "https://www.dropbox.com/s/0cmtetl3yx462ap/PinsoftKit.zip?dl=1" }
+  spec.source       = { :http => "https://www.dropbox.com/s/eskxwhg2sf07ajp/PinsoftKit_v2.zip?dl=1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
