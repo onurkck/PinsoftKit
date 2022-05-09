@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   
   spec.platform     = :ios, "13.0"
 
-  spec.source       = { :http => "https://www.dropbox.com/s/2bhi6gf8u9z2vfo/PinsoftKit_v2.zip?dl=1" }
+  spec.source       = { :http => "https://www.dropbox.com/s/7pf172d2hnaifwv/PinsoftKit.zip?dl=1" }
 
   spec.exclude_files = "Classes/Exclude"
 
